@@ -1,0 +1,98 @@
+.colorFondo{
+    background-color: #935cf8;
+    border:0.5px solid #1f0256;
+}
+.colorFondoFluid{
+    background-color: #5c76f8;
+    border:0.5px solid #020d56;
+   
+}
+
+.alto{
+    height: 50vh;
+}
+
+.imgGaleria{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marginPropio{
+    margin-bottom: 20px;
+    margin-top:100px !important;
+}
+
+
+.card-group{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.card{
+    align-items: center;
+}
+
+.card-img-top{
+    width:80%;
+    object-fit: cover;
+}
+
+.carousel{
+    width: 50%;
+}
+.carousel-item{
+
+    height: 80vh;
+}
+
+.imgCarrusel{
+   /*height: 100%;*/
+   object-fit: contain;
+}
+
+/*para el navegador el ul*/
+.flexible{
+    width: 100%;
+    background-color: rgba(255, 192, 203, 0);
+    justify-content: space-evenly;
+   
+}
+
+.link{
+    box-sizing: border-box;
+    color: #fff!important;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: border-bottom 0.3s ease;
+}
+.link:hover{
+    box-sizing: border-box;
+    color: #000!important;
+    /*background-color: #fff;*/
+    text-decoration:underline;
+   
+}
+@media screen and (min-width: 0px) and (max-width:992px) {
+    .card-group {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+   
+    .alto{
+        height: initial;
+    }
+    .carousel-item{
+        height: initial;
+    }
+    .flexible{
+       width: initial;
+       justify-content: flex-start;
+    }
+}
